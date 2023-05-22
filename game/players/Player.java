@@ -26,7 +26,7 @@ public class Player {
         Board.board[y][x] = charToPlace;
     }
 
-    public voidgetInput(boolean isFirstPlayer) {
+    public void getInput(boolean isFirstPlayer) {
         int x;
         int y;
         while (true) {
