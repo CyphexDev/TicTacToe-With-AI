@@ -47,9 +47,10 @@ public class Board {
     }
 
     public void printBoard() {
-        System.out.println("---------");
+        System.out.println("    1 2 3");
+        System.out.println("  ---------");
         for (int i = 0; i < 3; i++) {
-            System.out.print("| ");
+            System.out.print((i + 1) + " | ");
             for (int j = 0; j < 3; j++) {
                 if (board[i][j] == '_') {
                     System.out.print("  ");
@@ -59,7 +60,7 @@ public class Board {
             }
             System.out.println("|");
         }
-        System.out.print("---------\n");
+        System.out.print("  ---------\n");
     }
 
     public void startGame() {
